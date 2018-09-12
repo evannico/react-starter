@@ -16,6 +16,7 @@
       "window": false,
       "FileReader": false,
       "navigator": false,
-      "it": false
+      "it": false,
+      "import": false
   }
 }
