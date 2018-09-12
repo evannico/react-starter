@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "import/no-unresolved": "off",
+      "import/extensions": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "react/forbid-prop-types": "off",
+      "jsx-a11y/href-no-hash": "off",
+      "import/prefer-default-export": "off",
+      "arrow-body-style": "off"
+  },
+  "globals": {
+      "document": false,
+      "window": false,
+      "FileReader": false,
+      "navigator": false,
+      "it": false
+  }
+}
